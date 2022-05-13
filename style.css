@@ -1,4 +1,17 @@
-vav {
+
+nav{
     display: flex;
-    
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 88px;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    margin-right: 5px;
+    margin-left: 5px;
+    list-style: none;
 }
