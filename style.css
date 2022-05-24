@@ -37,3 +37,9 @@ nav{
     background-image: url(bg1.jpg);
     background-repeat: repeat;
 }
+body{
+    background: url(image/bg1.jpg);
+}
+header img{
+    align-content: center;
+}
