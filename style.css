@@ -38,10 +38,11 @@ body{
     background: url(image/bg.jpg);
 }
 header img{
-    align-content: center;
+    
 }
 header h3{
     font-family: "lobster";
+    text-align: center;
 }
 header img{
     align-self: center;
