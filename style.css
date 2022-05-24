@@ -1,5 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Luckiest+Guy&family=Montserrat:ital,wght@0,500;1,400&family=Oleo+Script+Swash+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Luckiest+Guy&family=Montserrat:ital,wght@0,500;1,400&family=Oleo+Script+Swash+Caps&family=Playfair+Display:ital,wght@1,500&display=swap');
+body{
+    font-family: "montserrat", sans-serif;
+}
 body h1{
     text-align: center;
+}
+body h3{
+    font-size: 25px;
+    font-family: "Playfair Display";
+    letter-spacing: 0,8px;
 }
 nav{
     display: flex;
@@ -8,6 +18,12 @@ nav{
     margin-left: 25px;
     margin-right: 25px;
     height: 88px;
+    background: black;
+    color: white;
+}
+nav a{
+    color: inherit;
+    text-decoration: none;
 }
 nav ul{
     display: flex;
@@ -16,4 +32,8 @@ nav li{
     margin-right: 5px;
     margin-left: 5px;
     list-style: none;
+}
+nav{
+    background-image: url(bg1.jpg);
+    background-repeat: repeat;
 }
