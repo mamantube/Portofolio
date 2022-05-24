@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Luckiest+Guy&family=Montserrat:ital,wght@0,500;1,400&family=Oleo+Script+Swash+Caps&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Luckiest+Guy&family=Montserrat:ital,wght@0,500;1,400&family=Oleo+Script+Swash+Caps&family=Playfair+Display:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Luckiest+Guy&family=Montserrat:ital,wght@0,500;1,400&family=Oleo+Script+Swash+Caps&family=Playfair+Display:ital,wght@1,500&display=swap');
 body{
     font-family: "montserrat", sans-serif;
 }
@@ -33,13 +34,18 @@ nav li{
     margin-left: 5px;
     list-style: none;
 }
-nav{
-    background-image: url(bg1.jpg);
-    background-repeat: repeat;
-}
 body{
-    background: url(image/bg1.jpg);
+    background: url(image/bg.jpg);
 }
 header img{
     align-content: center;
+}
+header h3{
+    font-family: "lobster";
+}
+header img{
+    align-self: center;
+}
+nav:hover{
+    background-color: red;
 }
