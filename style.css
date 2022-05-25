@@ -8,12 +8,25 @@ body {
 
 .jumbotron {
     background-image: url(image/bg3.jpg);
-    font-family: "Monserrat";
+    /* font-family: "Lobster"; */
     background-size: cover;
     height: 500px;
+}
+
+.titlem{
+    font-family: "Lobster"; 
+    color: blue;  
 }
 
 .btn-warning {
     background-color: rgba(252, 251, 251, 0.987);
     border-radius: 10px;
+}
+
+.red{
+    color: rgba(242, 9, 9, 0.768);
+}
+
+.pink{
+    color: pink;
 }
