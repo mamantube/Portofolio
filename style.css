@@ -11,12 +11,12 @@ body {
     color:white;  
     word-spacing: 3px;
 }
-
-.btn-warning {
-    background-color: rgba(252, 251, 251, 0.987);
-    border-radius: 10px;
-}
-
 .red{
     color: rgba(242, 9, 9, 0.768);
     font-family: "Lobster";
+}
+
+.footer {
+    line-height: 50px;
+    margin-bottom: 0px;
+}
