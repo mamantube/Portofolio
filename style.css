@@ -6,16 +6,10 @@ body {
     margin: 0px;
 }
 
-.jumbotron {
-    background-image: url(image/bg3.jpg);
-    /* font-family: "Lobster"; */
-    background-size: cover;
-    height: 500px;
-}
-
 .titlem{
-    font-family: "Lobster"; 
-    color: blue;  
+    font-family: "Monserrat"; 
+    color:white;  
+    word-spacing: 3px;
 }
 
 .btn-warning {
@@ -25,8 +19,4 @@ body {
 
 .red{
     color: rgba(242, 9, 9, 0.768);
-}
-
-.pink{
-    color: pink;
-}
+    font-family: "Lobster";
